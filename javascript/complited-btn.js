@@ -5,6 +5,11 @@ document.getElementById("box")
         alert("Board Updated Successfully")
         getElementById("card-title1");
 
+        const zxc = document.getElementById("decrement").innerText;
+        if (zxc === "0") {
+            alert("Congrates!!!YOU have complited all the Current task");
+        }
+
         this.disabled = true
     })
 
@@ -16,6 +21,11 @@ document.getElementById("box1")
         alert("Board Updated Successfully")
         getElementById("card-title2");
 
+        const zxc = document.getElementById("decrement").innerText;
+        if (zxc === "0") {
+            alert("Congrates!!!YOU have complited all the Current task");
+        }
+
         this.disabled = true
     })
 
@@ -26,6 +36,11 @@ document.getElementById("box2")
         increment();
         alert("Board Updated Successfully")
         getElementById("card-title3");
+
+        const zxc = document.getElementById("decrement").innerText;
+        if (zxc === "0") {
+            alert("Congrates!!!YOU have complited all the Current task");
+        }
 
         this.disabled = true
     })
@@ -39,6 +54,11 @@ document.getElementById("box3")
         alert("Board Updated Successfully")
         getElementById("card-title4");
 
+        const zxc = document.getElementById("decrement").innerText;
+        if (zxc === "0") {
+            alert("Congrates!!!YOU have complited all the Current task");
+        }
+
         this.disabled = true
     })
 
@@ -49,6 +69,11 @@ document.getElementById("box4")
         increment();
         alert("Board Updated Successfully")
         getElementById("card-title5");
+
+        const zxc = document.getElementById("decrement").innerText;
+        if (zxc === "0") {
+            alert("Congrates!!!YOU have complited all the Current task");
+        }
 
         this.disabled = true
     })
@@ -61,6 +86,12 @@ document.getElementById("box5")
         alert("Board Updated Successfully")
 
         getElementById("card-title6");
+
+
+        const zxc = document.getElementById("decrement").innerText;
+        if (zxc === "0") {
+            alert("Congrates!!!YOU have complited all the Current task");
+        }
         this.disabled = true;
     })
 
@@ -75,7 +106,3 @@ document.getElementById("ClearHistoryBtn")
 
 
 
-const zxc =parseInt(document.getElementById("decrement").innerText);
-if (zxc === "1"){
-    alert("hello mama")
-}
