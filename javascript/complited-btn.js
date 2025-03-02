@@ -75,7 +75,7 @@ document.getElementById("ClearHistoryBtn")
 
 
 
-const zxc =document.getElementById("decrement").innerText
+const zxc =parseInt(document.getElementById("decrement").innerText);
 if (zxc === "1"){
     alert("hello mama")
 }
