@@ -75,8 +75,7 @@ document.getElementById("ClearHistoryBtn")
 
 
 
-const x1 = document.getElementById("decrement").innerText;
-const convertedX1 = parseFloat(x1);
-if (convertedX1 = 1) {
-    alert("6 ga hoi gace")
+const zxc =document.getElementById("decrement").innerText
+if (zxc === "1"){
+    alert("hello mama")
 }

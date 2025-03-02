@@ -38,7 +38,7 @@ function getElementById(id) {
     const cardTitleValue = document.getElementById(id).innerText;
     const setValue = document.createElement("p")
     setValue.id = "appendChild"
-    setValue.innerText = cardTitleValue + " " + timeString;
+    setValue.innerText ="You have completed the task "+ cardTitleValue + " " + timeString;
     const xxx = document.getElementById("clearData")
     xxx.appendChild(setValue);
 
